@@ -1,7 +1,7 @@
 const students = ['Alice' , 'Andreas' , 'Bob', 'Costas']
 
-students.forEach(function(stu , _, arr) {
-  console.log(stu  ,arr)
+students.forEach(function(val,index,arr) {
+  console.log(val,index,arr)
 })
 
 let filtered = students.filter(student => student === 'Andreas') //Δημιουργει ενα νεο πινακα που περιεχει μονο το 'Andreas'
